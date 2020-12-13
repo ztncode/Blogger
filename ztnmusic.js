@@ -1,4 +1,5 @@
   <!-- Chord Gitar -->
+    <script>
             jQuery(document).ready(function() {
                 $( &#39;a[href*=&quot;#&quot;]:not([href=&quot;#&quot;])&#39; ).click( function() {
                     jQuery(&quot;tela&quot;).toggleClass(&quot;tela&quot;);
@@ -71,4 +72,4 @@ var elem = document.getElementById(&quot;sizeable&quot;);
 var currentSize = elem.style.fontSize || 1;
 elem.style.fontSize = ( parseFloat(currentSize) + (multiplier * 0.2)) + &quot;em&quot;;
 }
-  <!-- Zoom End -->
+  <!-- Zoom End --></script>
